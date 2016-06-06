@@ -98,10 +98,14 @@
                 color: white;
             }
             p#skills {
-                margin-left: 31%;
                 color: white;
                 text-decoration: underline;
             }
             i#second {
-                margin-top: 22%;
+                margin-top: 15%;
+            }
+            li {
+                list-style-type: none;
+                display: inline;
+                padding-left: 3%;
             }
