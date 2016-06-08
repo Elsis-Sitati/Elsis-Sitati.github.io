@@ -75,9 +75,9 @@
                 background-color: #293138;
                 color: #F89600;
                 height: 100%;
-                font-size: 20px;
+                font-size: 1.3em;
                 font-family: 'Playfair Display', serif;
-                text-align: center;
+                /* text-align: center; */
             }
             .small-centered {
                 float: none;
@@ -115,8 +115,9 @@
                 }
                 b#babt {
                     color: white;
-                    font-size: 0.9em;
+                    font-size: 2em;
                     font-family: 'Lora', serif;
+                    margin-left: 37%;
                 }
                 i#second {
                     margin-top: 10%;
@@ -132,40 +133,41 @@
                 height: 83%;
             }
             div#anim {
+                position: relative;
                 -webkit-animation-delay: 1s;
-            }
-            div#anim p {
-                color: transparent;
-                height: 100%;
-            }
-            div#anim p:hover {
-                color: transparent;
             }
             div#anim1 {
                 -webkit-animation-delay: 2s;
+                position: relative;
             }
             div#anim2 {
                 -webkit-animation-delay: 3s;
+                position: relative;
             }
             div#anim3 {
                 -webkit-animation-delay: 4s;
                 margin-top: 1em;
+                position: relative;
             }
             div#anim4 {
                 -webkit-animation-delay: 5s;
                 margin-top: 1em;
+                position: relative;
             }
             div#anim5 {
                 -webkit-animation-delay: 6s;
                 margin-top: 1em;
+                position: relative;
             }
             div#bg {
-                height: 12.7em;
-                background: rgba(0, 0, 0, .72) none repeat scroll 0 0;
-                position: relative;
+                height: 12.9em;
+                background: rgba(0, 0, 0, .72);
+                position: absolute;
                 width: 100%;
-                margin-top: -68.4%;
+                margin-top: -63.4%;
                 text-align: center;
+                position: absolute;
+                z-index: 100;
             }
             p#p6 {
                 padding-top: 6em;
@@ -174,24 +176,11 @@
                 color: white;
                 font-family: 'Lobster', cursive;
             }
-            b#bpt1:hover {
-                color: transparent;
-            }
             b#bpt2 {
                 color: #F89600;
                 font-family: 'Lato', sans-serif;
             }
-            b#bpt2:hover {
-                color: transparent;
-            }
-            div#bg:hover {
-                background: transparent;
-            }
-            div#bg p {
-                height: 100%;
-                width: 100%;
-            }
-            div#bg p:hover {
+            .try .animated:hover div#bg {
                 display: none;
             }
             p#plio {
