@@ -79,6 +79,9 @@
                 font-family: 'Playfair Display', serif;
                 text-align: center;
             }
+            #about a {
+                text-align: center;
+            }
             .small-centered {
                 float: none;
                 margin-left: auto;
@@ -100,9 +103,12 @@
                 color: white;
                 text-decoration: underline;
             }
+            /*
             i#second {
-                margin-top: 15%;
-            }
+    margin-top: 15%;
+}
+*/
+            
             li {
                 list-style-type: none;
                 display: inline;
@@ -160,10 +166,10 @@
                 position: relative;
             }
             div#bg {
-                height: 12.9em;
+                height: 14.9em;
                 background: rgba(0, 0, 0, .72);
                 position: absolute;
-                width: 100%;
+                width: 92.5%;
                 margin-top: -63.4%;
                 text-align: center;
                 position: absolute;
