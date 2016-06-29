@@ -77,7 +77,7 @@
                 height: 100%;
                 font-size: 1.3em;
                 font-family: 'Playfair Display', serif;
-                /* text-align: center; */
+                text-align: center;
             }
             .small-centered {
                 float: none;

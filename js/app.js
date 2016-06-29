@@ -13,3 +13,10 @@ $(document).ready(function () {
         });
     });
 });
+
+var waypoint = new Waypoint({
+    element: document.getElementById('about'),
+    handler: function () {
+        notify('')
+    }
+})
