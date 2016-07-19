@@ -133,6 +133,8 @@
             div#portfolio {
                 height: 100%;
                 background-color: #293138;
+                text-align: center;
+                color: #F89600;
             }
             .small-10.small-centered.columns {
                 background-color: #293138;
