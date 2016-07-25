@@ -50,6 +50,9 @@
                 -webkit-transition-duration: 0.3s;
                 transition-duration: 0.3s;
             }
+            i#arr1 {
+                margin-top: 4%;
+            }
             .hvr-icon-sink:before {
                 content: "\f01a";
                 position: absolute;
@@ -194,9 +197,9 @@
             }
             p#plio {
                 color: white;
-                margin-left: 50%;
+                margin-left: 0%;
                 font-size: 2em;
-                margin-top: -4%;
+                margin-top: 0%;
                 font-family: 'Lora', serif;
             }
             div#contacts {
@@ -259,4 +262,7 @@
             i#two {
                 margin-top: 26%;
                 margin-left: 45%;
+            }
+            i#arr2 {
+                margin-top: 8%;
             }
